@@ -33,7 +33,8 @@ main{
     background-color: #393e46;
     height: calc(100vh - 120px);
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -91,4 +92,12 @@ button{
 }
 button:hover{
     cursor: pointer;
+}
+
+#result{
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: #32e0c4;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }

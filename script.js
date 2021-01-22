@@ -1,5 +1,6 @@
 let Button = [];
 let count = 0;
+const results = document.getElementById("result");
 for (let i = 1; i < 10; i++)
     Button.push(document.getElementById(`grid${i}`));
 function win(){
@@ -20,7 +21,7 @@ function win(){
     else if (Button[2].innerHTML == Button[4].innerHTML && Button[6].innerHTML == Button[2].innerHTML && Button[2].innerHTML != "~")
         return true;
     else if (count == 9)
-        alert("THE GAME ENDED IN A DRAW REFRESH TO PLAY AGAIN");
+        results.innerHTML = "ITS A DRAW";
     else 
         return false;
 }
@@ -37,9 +38,9 @@ Button[i].addEventListener("click", function(){
         if(win())
         {
             if (count % 2 == 0)
-                alert("O won the game refresh to play again");
+                results.innerHTML = "O WON THE GAME";
             else 
-                alert("X won the game refresh to play again");
+                results.innerHTML = "X WON THE GAME";
         }    
     }   
     });

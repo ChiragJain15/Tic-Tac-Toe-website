@@ -29,7 +29,7 @@ function win(){
 
 for (let i = 0; i < Button.length; i++)
 Button[i].addEventListener("click", function(){ 
-    if (Button[i].innerHTML == "~" )
+    if (Button[i].innerHTML == "~" && !win())
     {
         if(count % 2 == 0)
             Button[i].innerHTML = "X"; 

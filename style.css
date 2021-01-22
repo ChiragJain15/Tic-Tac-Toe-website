@@ -103,6 +103,7 @@ button:hover{
 }
 #reset{
     cursor: pointer;
+    width: 10rem;
     margin-top: 5rem;
     font-size: 2rem;
     color: #32e0c4;

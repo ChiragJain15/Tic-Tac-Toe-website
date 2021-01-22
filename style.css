@@ -126,3 +126,30 @@ button:focus{
 #reset:hover{
     transform: scale(1.2);
 }
+
+@media screen and (max-height: 800px)
+{
+    h1{
+        font-size: 2rem;
+    }
+   h2{
+       font-size: 1.75rem;
+   }
+   .container{
+        height: 12rem;
+        width: 12rem;
+        margin-top: 4rem;
+    }
+    button{
+        height: 3.8rem;
+        width:  3.8rem;
+        font-size: 2rem;
+    }
+    #result{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: #32e0c4;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+}

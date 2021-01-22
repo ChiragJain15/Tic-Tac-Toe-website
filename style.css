@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #222831;
+}
+
+h1{
+    font-family: 'Potta One', cursive;
+    font-size: 3rem;
+    font-style: italic;
+    color:#32e0c4;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#32e0c4;
+
+}
+
+main{
+    background-color: #393e46;
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container{
+    height: 21rem;
+    width: 21rem;
+}
+
+button{
+    border: none;
+    height: 6.8rem;
+    width:  6.8rem;
+    background-color:  #393e46;
+    padding:0px;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: #f05454;
+    font-size: 2rem;
+}
+
+#grid1{
+    border-right: solid white 1px;
+    border-bottom: solid white 1px;
+}
+#grid2{
+    border: solid white 1px;
+    border-top: none;
+}
+#grid3{
+    border-left: solid white 1px;
+    border-bottom: solid white 1px;
+}
+#grid4{
+    border: solid white 1px;
+    border-left: none;
+}
+#grid5{
+    border: solid white 1px;
+}
+#grid6{
+    border: solid white 1px;
+    border-right: none;
+}
+#grid7{
+    border-right: solid white 1px;
+    border-top: solid white 1px;
+}
+#grid8{
+    border: solid white 1px;
+    border-bottom: none;
+}
+#grid9{
+    border-left: solid white 1px;
+    border-top: solid white 1px;
+}
+button:hover{
+    cursor: pointer;
+}

@@ -101,3 +101,14 @@ button:hover{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+
+#reset{
+    cursor: pointer;
+    margin-top: 5rem;
+    font-size: 2rem;
+    color: #32e0c4;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border: solid white 0.1rem;
+    padding: 1rem;
+}

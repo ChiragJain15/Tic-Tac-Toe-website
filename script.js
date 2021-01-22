@@ -1,6 +1,7 @@
 let Button = [];
 let count = 0;
 const results = document.getElementById("result");
+const reset = document.getElementById("reset");
 for (let i = 1; i < 10; i++)
     Button.push(document.getElementById(`grid${i}`));
 function win(){
@@ -44,3 +45,9 @@ Button[i].addEventListener("click", function(){
         }    
     }   
     });
+
+reset.addEventListener("click", () => {
+    for (let i = 0; i < 9; i++)
+        Button[i].innerHTML = "~";
+    results.innerHTML = "";
+});

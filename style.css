@@ -152,4 +152,10 @@ button:focus{
         font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
+    #reset{
+        font-size: 1rem;
+    }
+    button{
+        font-size: 1.5rem;
+    }
 }

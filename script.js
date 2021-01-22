@@ -47,7 +47,10 @@ Button[i].addEventListener("click", function(){
     });
 
 reset.addEventListener("click", () => {
+    reset.classList.add('highlight')
+    setTimeout(() => reset.classList.remove('highlight'), 300);
     for (let i = 0; i < 9; i++)
         Button[i].innerHTML = "~";
     results.innerHTML = "";
+
 });

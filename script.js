@@ -53,7 +53,7 @@ reset.addEventListener("click", () => {
 
 
 function win(){
-    if (count == 9)
+    if (count > 9)
         results.innerHTML = "ITS A DRAW";
     if (Button[0].innerHTML == Button[1].innerHTML && Button[2].innerHTML == Button[0].innerHTML && Button[0].innerHTML != "~")
         return true;
